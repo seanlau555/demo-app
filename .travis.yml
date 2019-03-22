@@ -17,6 +17,10 @@ deploy:
   on:
     branch: gh-pages
 
+    
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+
 # before_install:
 # install:
 # before_script:
